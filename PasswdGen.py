@@ -1,5 +1,6 @@
 import secrets
 import string
+import time
 
 # Get the password length from the user.
 user_input_length = int(input("Password Length? (12 or more is recommended) "))
@@ -41,3 +42,6 @@ def generate_random_password(length=user_input_length):
 # printing the password on screen
 random_password = generate_random_password()
 print(random_password)
+
+# Za Warudo
+time.sleep(60)
